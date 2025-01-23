@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass Yeumoney
 // @namespace    http://tampermonkey.net/
-// @version      3.0
+// @version      1.0
 // @description  Automatically Bypass Yeumoney
 // @author       xGreen
 // @match        https://yeumoney.com/*
