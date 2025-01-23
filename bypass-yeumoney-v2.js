@@ -2,7 +2,7 @@
 // @name         Bypass Yeumoney V2
 // @namespace    http://tampermonkey.net/
 // @version      2.0
-// @description  Bypass Yeumoney
+// @description  Automatically Bypass Yeumoney V2
 // @author       xGreen
 // @match        https://yeumoney.com/*
 // @run-at       document-end
