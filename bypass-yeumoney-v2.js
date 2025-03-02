@@ -5,11 +5,534 @@
 // @description  Bypass Yeumoney
 // @author       xGreen
 // @match        https://yeumoney.com/*
+// @match        https://docs.google.com/spreadsheets/*
+// @match        https://docs.google.com/forms/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_notification
+// @connect      *
 // @run-at       document-end
 // ==/UserScript==
 
-function _0x58ed(_0x505378,_0x13a555){const _0x61693d=_0x6169();return _0x58ed=function(_0x58ed00,_0x1a6f2b){_0x58ed00=_0x58ed00-0x64;let _0x3445b4=_0x61693d[_0x58ed00];return _0x3445b4;},_0x58ed(_0x505378,_0x13a555);}function _0x6169(){const _0x2780d1=['then','click','status','center','https://www.google.com/','283688hCGWqR','admin','head','Lỗi\x20khi\x20gọi\x20startBypass:','350px','8px','9999','right','https://yeumoney.com','https://traffic-user.net/GET_MA.php','Lỗi\x20mạng\x20hoặc\x20yêu\x20cầu\x20không\x20thành\x20công','#lydo_doima\x20>\x20label:nth-child(8)\x20>\x20input[type=radio]','parse','Lỗi!\x20Đổi\x20nhiệm\x20vụ\x20khác\x20và\x20thử\x20lại','URL\x20nhận\x20diện\x20(OCR):\x20','replace','checked','location','appendChild','w88','URL\x20Lỗi!\x20Vui\x20lòng\x20kiểm\x20tra\x20lại.','Auto\x20Bypass\x20(90%)','Words','position','195UxfTJM','style','append','margin','871452ytxcIz','div','darkred','fb88','7030ugpqIU','5596542UaVaps','border','https://fb88','input','disabled','italic','keyword','https://88bet','https://v9bet','input[name=\x22pix\x22]','backgroundImage','src','body','color','display','fontSize','match','200%\x20auto','POST','none','includes','ymnclk','306392lsmkzb','GET','&url=','removeItem','img#halt_nv','boxShadow','Lỗi:\x20','6RcKBBX','alignItems','animation','https://bk8','getElementById','marginLeft','justifyContent','Chưa\x20nhận\x20diện\x20được\x20URL!','#lydo_doima\x20>\x20center\x20>\x20a:nth-child(2)','bk8','id_traffic','Script\x20By\x20phantatdung','99OgelMu','catch','getAttribute','Lỗi\x20trong\x20startBypass:','rainbowMove\x205s\x20linear\x20infinite','filter','Không\x20thể\x20lấy\x20mã\x20codexn','fetchCode','trim','Bắt\x20đầu\x20Bypass','backgroundClip','27316IAdaKl','brown','2767805UFpHEH','map','input[name=\x22dieuhanh\x22]','readOnly','Code:\x20','fontStyle','responseText','m88','#gt-form',',IOS900,hidden,null','checkbox','createElement','querySelector','pix','span#layma_me_vuatraffic','onload','5px','\x20giây','lvp','LineText','?codexn=','text','#btn-baoloi','#4CAF50','open','value','7px','cookie','action','?data=','#f9f9f9','log','finalUrl','Nếu\x20để\x20trống\x20sẽ\x20sử\x20dụng\x20URL\x20nhận\x20diện!','Lỗi!\x20Tự\x20nhập\x20URL\x20hoặc\x20Reload','Đổi\x20Nhiệm\x20Vụ','https://traffic-user.net/GET_VUATRAFFIC.php','ref','error','codexn','13px','Auto\x20chuyển\x20trang','Lines','placehold.co','1px\x20solid\x20#ccc','marginBottom','img#hinh_nv','dieuhanh','Nhập\x20URL\x20nhiệm\x20vụ:','check_index','width','flex','backgroundColor','text/html','trinhduyet','label','&clk=','13398zmnAYI','top','https://yeumoney.com/','$ref','Đang\x20Đổi\x20Nhiệm\x20Vụ...','type','marginRight','cursor','Đang\x20xử\x20lý...','textContent','Không\x20có\x20mã\x20trả\x20về\x20từ\x20startBypass','\x20-\x20Đang\x20chuyển\x20trang...','padding','onchange','Lỗi!\x20Vui\x20lòng\x20xem\x20lại\x20URL.','10px','htmlFor','Đang\x20đổi\x20nhiệm\x20vụ...','&loai_traffic=','0px\x204px\x206px\x20rgba(0,\x200,\x200,\x200.1)','\x0a\x20\x20\x20\x20@keyframes\x20rainbowMove\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x200%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-position:\x200%\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-position:\x20100%\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a','borderRadius','vn88','code','Top','onclick','100%','autoStart','send','button','#fff','userAgent','fontWeight','input[name=\x22lvp\x22]','14px','https://api.ocr.space/parse/imageurl?apikey=K81664733488957&isOverlayRequired=true&OCREngine=2','#dongy_doima\x20>\x20a','toString','now'];_0x6169=function(){return _0x2780d1;};return _0x6169();}(function(_0x21ac9d,_0xb4c17e){const _0x7efa51=_0x58ed,_0x18b1b6=_0x21ac9d();while(!![]){try{const _0x55b58c=-parseInt(_0x7efa51(0xc1))/0x1+parseInt(_0x7efa51(0xa5))/0x2+-parseInt(_0x7efa51(0xbd))/0x3*(-parseInt(_0x7efa51(0xfa))/0x4)+-parseInt(_0x7efa51(0xfc))/0x5*(-parseInt(_0x7efa51(0xe3))/0x6)+parseInt(_0x7efa51(0xc6))/0x7+-parseInt(_0x7efa51(0xdc))/0x8*(-parseInt(_0x7efa51(0xef))/0x9)+-parseInt(_0x7efa51(0xc5))/0xa*(parseInt(_0x7efa51(0x79))/0xb);if(_0x55b58c===_0xb4c17e)break;else _0x18b1b6['push'](_0x18b1b6['shift']());}catch(_0x93115b){_0x18b1b6['push'](_0x18b1b6['shift']());}}}(_0x6169,0x9a63b),(function(){'use strict';const _0x59c7b8=_0x58ed;const _0x1b8b03=_0x59c7b8(0x64),_0x5409d4=_0x59c7b8(0xae),_0x342b9f=_0x59c7b8(0xa4),_0x34c038=_0x59c7b8(0x9c);function _0x6749c7(){const _0x16f9c0=_0x59c7b8;console[_0x16f9c0(0x11b)](_0x16f9c0(0x8a));const _0x32edc7=document[_0x16f9c0(0x108)](_0x16f9c0(0x112));if(!_0x32edc7)return;_0x32edc7[_0x16f9c0(0xa1)](),setTimeout(()=>{const _0x1d98be=_0x16f9c0,_0x25ce2e=document[_0x1d98be(0x108)](_0x1d98be(0xeb));if(_0x25ce2e)_0x25ce2e['click']();setTimeout(()=>{const _0x4d97b9=_0x1d98be,_0x11cfea=document[_0x4d97b9(0x108)](_0x4d97b9(0xb0));if(_0x11cfea)_0x11cfea[_0x4d97b9(0xa1)]();setTimeout(()=>{const _0x4ad762=_0x4d97b9,_0x422e98=document[_0x4ad762(0x108)](_0x4ad762(0x9d));if(_0x422e98)_0x422e98[_0x4ad762(0xa1)]();},0x1f4);},0x1f4);},0x1f4);}function _0x2873d5(){return new Promise((_0x488e8e,_0x58d518)=>{const _0xf39c1c=_0x58ed,_0x28ebb4=document['querySelector']('p#TK1')[_0xf39c1c(0x82)]['trim']()['toLowerCase'](),_0x1ae1f2=document['querySelector'](_0xf39c1c(0xe0))||document[_0xf39c1c(0x108)](_0xf39c1c(0x6e)),_0x58b37d=_0x1ae1f2?_0x1ae1f2[_0xf39c1c(0xd1)]:null;if(_0x58b37d[_0xf39c1c(0xda)](_0xf39c1c(0x6b))){setTimeout(()=>{const _0x50f08a=_0xf39c1c;_0x2873d5()['then'](_0x488e8e)[_0x50f08a(0xf0)](_0x58d518);},0x64);return;}const _0x28e99a=_0x34c038+_0xf39c1c(0xde)+_0x58b37d,_0x45b2f2=new XMLHttpRequest();_0x45b2f2[_0xf39c1c(0x114)](_0xf39c1c(0xdd),_0x28e99a,!![]),_0x45b2f2[_0xf39c1c(0x10b)]=function(){const _0x51ce71=_0xf39c1c;if(_0x45b2f2[_0x51ce71(0xa2)]===0xc8){const _0x537d3f=JSON[_0x51ce71(0xb1)](_0x45b2f2[_0x51ce71(0x102)]),_0x45e678=_0x537d3f['ParsedResults'][0x0],_0x563b68=_0x45e678['TextOverlay'][_0x51ce71(0x6a)][_0x51ce71(0xf4)](_0x1a1624=>_0x1a1624['LineText']['match'](/\b[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+\b/)&&_0x1a1624[_0x51ce71(0xbb)]&&_0x1a1624['Words']['some'](_0x3ab640=>_0x3ab640[_0x51ce71(0x91)]<0xaa))[_0x51ce71(0xfd)](_0x2926af=>_0x2926af[_0x51ce71(0x10f)]);let _0x4cee3e='';if(_0x28ebb4==='188bet')_0x4cee3e=_0x51ce71(0xcd)+_0x563b68+'/';else{if(_0x28ebb4===_0x51ce71(0xb8))_0x4cee3e='https://188.166.185.213/';else{if(_0x28ebb4===_0x51ce71(0xec))_0x4cee3e=_0x51ce71(0xe6)+_0x563b68+'/';else{if(_0x28ebb4===_0x51ce71(0xc4))_0x4cee3e=_0x51ce71(0xc8)+_0x563b68+'/';else{if(_0x28ebb4===_0x51ce71(0x103))_0x4cee3e='https://bet88'+_0x563b68+'/';else{if(_0x28ebb4===_0x51ce71(0x8f))_0x4cee3e='https://vn88'+_0x563b68+'/';else _0x28ebb4==='v9bet'?_0x4cee3e=_0x51ce71(0xce)+_0x563b68+'/':_0x4cee3e=_0x51ce71(0xea);}}}}}_0x488e8e(_0x4cee3e);}else _0x58d518('Lỗi\x20khi\x20tải\x20dữ\x20liệu:\x20'+_0x45b2f2[_0x51ce71(0xa2)]);},_0x45b2f2[_0xf39c1c(0x95)]();});}function _0x2ede3d(_0x32efad){const _0x1fed5f=_0x59c7b8,_0x591353=Date[_0x1fed5f(0x9f)]();return _0x591353+','+_0x342b9f+','+_0x32efad+_0x1fed5f(0x105);};function _0x2fa783(_0x4de4fd){return new Promise((_0x36ec55,_0x330492)=>{const _0x152425=_0x58ed,_0x2e3813=_0x2ede3d(),_0x8c347a=new XMLHttpRequest(),_0xea5dce=_0x1b8b03+_0x152425(0x119)+_0x2e3813+_0x152425(0x78)+_0x4de4fd;_0x8c347a[_0x152425(0x114)](_0x152425(0xd8),_0xea5dce,!![]),_0x8c347a[_0x152425(0x10b)]=function(){const _0x3c8c30=_0x152425;if(_0x8c347a[_0x3c8c30(0xa2)]===0xc8){const _0x171aed=_0x8c347a[_0x3c8c30(0x102)],_0x47bdb0=_0x171aed[_0x3c8c30(0xd6)](/localStorage\.codexn\s*=\s*'([^']+)'/)?.[0x1];_0x47bdb0?(localStorage[_0x3c8c30(0x67)]=_0x47bdb0,_0x36ec55(_0x47bdb0)):(console[_0x3c8c30(0x66)](_0x3c8c30(0xf5)),_0x330492(_0x3c8c30(0xb2)));}else _0x330492(_0x3c8c30(0xe2)+_0x8c347a[_0x3c8c30(0xa2)]);},_0x8c347a['onerror']=()=>_0x330492(_0x152425(0xaf)),_0x8c347a[_0x152425(0x95)]();});}function _0x1b4021(_0x11aaec,_0x1c2238,_0x212897,_0x531f40){return new Promise((_0x39297f,_0x40c7d3)=>{const _0x5598aa=_0x58ed,_0x561cad=_0x5409d4+_0x5598aa(0x110)+_0x11aaec+_0x5598aa(0xde)+_0x1c2238+_0x5598aa(0x8b)+_0x212897+_0x5598aa(0x78)+_0x531f40,_0x341782=new XMLHttpRequest();_0x341782[_0x5598aa(0x114)](_0x5598aa(0xd8),_0x561cad,!![]),_0x341782[_0x5598aa(0x10b)]=function(){const _0x5e4b99=_0x5598aa;if(_0x341782[_0x5e4b99(0xa2)]===0xc8){const _0xc8940f=_0x341782['responseText'],_0x265dc1=_0xc8940f[_0x5e4b99(0xd6)](/sessionStorage\.setItem\("ymnclk", (\d+)\)/)?.[0x1];if(_0x265dc1)sessionStorage['setItem'](_0x5e4b99(0xdb),_0x265dc1),_0x39297f(_0x265dc1);else{const _0x14bbc1=new DOMParser()['parseFromString'](_0xc8940f,_0x5e4b99(0x75)),_0x46f830=_0x14bbc1[_0x5e4b99(0x108)](_0x5e4b99(0x10a));if(_0x46f830)_0x39297f(_0x46f830[_0x5e4b99(0x82)][_0x5e4b99(0xf7)]());else _0x40c7d3(_0x5e4b99(0xb9));}}else _0x40c7d3(_0x5e4b99(0xe2)+_0x341782[_0x5e4b99(0xa2)]);},_0x341782['onerror']=()=>_0x40c7d3(_0x5598aa(0xaf)),_0x341782['send']();});}function _0x313435(_0x26bb60){const _0x561c06=_0x59c7b8,_0x2c2fff=document[_0x561c06(0x108)](_0x561c06(0x104))?.[_0x561c06(0xf1)](_0x561c06(0x118))||'',_0x16eec3=_0x561c06(0xad)+_0x2c2fff,_0x1c1f9d=new FormData();_0x1c1f9d['append'](_0x561c06(0x90),_0x26bb60),_0x1c1f9d['append'](_0x561c06(0xcc),''),_0x1c1f9d[_0x561c06(0xbf)](_0x561c06(0x6f),document[_0x561c06(0x108)](_0x561c06(0xfe))?.[_0x561c06(0x115)]||''),_0x1c1f9d['append'](_0x561c06(0x109),document['querySelector'](_0x561c06(0xcf))?.[_0x561c06(0x115)]||''),_0x1c1f9d[_0x561c06(0xbf)](_0x561c06(0x10e),document[_0x561c06(0x108)](_0x561c06(0x9a))?.['value']||''),_0x1c1f9d['append'](_0x561c06(0x65),_0x561c06(0x7c)),_0x1c1f9d[_0x561c06(0xbf)](_0x561c06(0x76),document[_0x561c06(0xe7)](_0x561c06(0x76))?.[_0x561c06(0x115)]||''),_0x1c1f9d[_0x561c06(0xbf)](_0x561c06(0xed),document[_0x561c06(0xe7)]('id_donhang')?.[_0x561c06(0x115)]||''),_0x1c1f9d[_0x561c06(0xbf)](_0x561c06(0x71),'1');const _0x58f355=new URLSearchParams(_0x1c1f9d)[_0x561c06(0x9e)]();GM_xmlhttpRequest({'method':_0x561c06(0xd8),'url':_0x16eec3,'headers':{'Content-Type':'application/x-www-form-urlencoded','User-Agent':navigator[_0x561c06(0x98)],'Referer':_0x561c06(0x7b),'Cookie':document[_0x561c06(0x117)]},'data':_0x58f355,'onload':function(_0x29c492){const _0x444dde=_0x561c06;window[_0x444dde(0xb6)]['href']=_0x29c492[_0x444dde(0x11c)];},'onerror':function(_0x409a99){const _0x2e6fda=_0x561c06,_0x5c0265=_0x409a99[_0x2e6fda(0x66)],_0x2cc01d=_0x5c0265[_0x2e6fda(0xd6)](/https?:\/\/[^\s"]+/);window[_0x2e6fda(0xb6)]['href']=_0x2cc01d;}});}async function _0x20c4d5(_0x3d2a4e){const _0x438b28=_0x59c7b8;try{const _0x56469f=await _0x2fa783(null),_0x4b5d19=_0x3d2a4e[_0x438b28(0xb4)](/\/$/,''),_0x393918=await _0x1b4021(_0x56469f,_0x4b5d19,_0x342b9f,null),_0x511f76=await _0x2fa783(_0x393918),_0x3e99b8=_0x3d2a4e+_0x438b28(0xa6),_0x3e7910=await _0x1b4021(_0x511f76,_0x3e99b8,_0x3d2a4e,_0x393918);return _0x3e7910;}catch(_0x564c0d){return console[_0x438b28(0x66)](_0x438b28(0xf2),_0x564c0d),null;}}function _0x3d4ed8(_0x1af7db){const _0x1f799b=_0x59c7b8,_0x49a5dd=document[_0x1f799b(0x107)](_0x1f799b(0xc2));_0x49a5dd[_0x1f799b(0xbe)][_0x1f799b(0xbc)]='fixed',_0x49a5dd[_0x1f799b(0xbe)][_0x1f799b(0x7a)]=_0x1f799b(0x88),_0x49a5dd[_0x1f799b(0xbe)][_0x1f799b(0xac)]=_0x1f799b(0x88),_0x49a5dd[_0x1f799b(0xbe)][_0x1f799b(0x74)]=_0x1f799b(0x11a),_0x49a5dd[_0x1f799b(0xbe)][_0x1f799b(0xc7)]=_0x1f799b(0x6c),_0x49a5dd[_0x1f799b(0xbe)][_0x1f799b(0x85)]=_0x1f799b(0x88),_0x49a5dd['style']['zIndex']=_0x1f799b(0xab),_0x49a5dd[_0x1f799b(0xbe)]['width']=_0x1f799b(0xa9),_0x49a5dd[_0x1f799b(0xbe)][_0x1f799b(0xe1)]=_0x1f799b(0x8c),_0x49a5dd[_0x1f799b(0xbe)][_0x1f799b(0x8e)]=_0x1f799b(0x88);const _0x28f938=document[_0x1f799b(0x107)]('h4');_0x28f938[_0x1f799b(0x82)]=_0x1f799b(0xee),_0x28f938[_0x1f799b(0xbe)][_0x1f799b(0xc0)]='0',_0x28f938[_0x1f799b(0xbe)][_0x1f799b(0x6d)]=_0x1f799b(0x88),_0x28f938[_0x1f799b(0xbe)][_0x1f799b(0xd5)]=_0x1f799b(0x88),_0x28f938['style'][_0x1f799b(0x101)]=_0x1f799b(0xcb),_0x28f938[_0x1f799b(0xbe)]['textAlign']='center',_0x28f938[_0x1f799b(0xbe)][_0x1f799b(0xd0)]='linear-gradient(90deg,\x20red,\x20orange,\x20brown,\x20green,\x20blue,\x20indigo,\x20violet,\x20indigo,\x20blue,\x20green,\x20brown,\x20orange,\x20red)',_0x28f938[_0x1f799b(0xbe)]['backgroundSize']=_0x1f799b(0xd7),_0x28f938[_0x1f799b(0xbe)][_0x1f799b(0xd3)]='transparent',_0x28f938[_0x1f799b(0xbe)][_0x1f799b(0xf9)]=_0x1f799b(0x111),_0x28f938[_0x1f799b(0xbe)]['webkitBackgroundClip']=_0x1f799b(0x111),_0x28f938[_0x1f799b(0xbe)][_0x1f799b(0xe5)]=_0x1f799b(0xf3);const _0x1d9137=document[_0x1f799b(0x107)]('style');_0x1d9137[_0x1f799b(0x82)]=_0x1f799b(0x8d),document[_0x1f799b(0xa7)]['appendChild'](_0x1d9137),_0x49a5dd[_0x1f799b(0xb7)](_0x28f938);const _0x2cb68f=document[_0x1f799b(0x107)]('h3');_0x2cb68f[_0x1f799b(0x82)]=_0x1f799b(0x70),_0x2cb68f['style'][_0x1f799b(0xc0)]='0',_0x2cb68f[_0x1f799b(0xbe)][_0x1f799b(0x99)]='bold',_0x2cb68f[_0x1f799b(0xbe)][_0x1f799b(0x6d)]=_0x1f799b(0x88),_0x2cb68f[_0x1f799b(0xbe)]['fontSize']='16px',_0x2cb68f[_0x1f799b(0xbe)]['color']=_0x1f799b(0xc3),_0x49a5dd[_0x1f799b(0xb7)](_0x2cb68f);const _0x5cf72e=document[_0x1f799b(0x107)]('input');_0x5cf72e[_0x1f799b(0xff)]=![],_0x5cf72e['placeholder']=_0x1f799b(0x11d),_0x5cf72e[_0x1f799b(0xbe)][_0x1f799b(0x72)]=_0x1f799b(0x93),_0x5cf72e[_0x1f799b(0xbe)][_0x1f799b(0x6d)]=_0x1f799b(0x88),_0x5cf72e[_0x1f799b(0xbe)]['padding']=_0x1f799b(0xaa),_0x5cf72e[_0x1f799b(0xbe)]['fontSize']=_0x1f799b(0x9b),_0x49a5dd[_0x1f799b(0xb7)](_0x5cf72e);const _0x497cbe=document['createElement']('h4');_0x497cbe[_0x1f799b(0x82)]=_0x1f799b(0xb3)+_0x1af7db,_0x497cbe[_0x1f799b(0xbe)]['margin']='0',_0x497cbe[_0x1f799b(0xbe)]['marginBottom']=_0x1f799b(0x88),_0x497cbe[_0x1f799b(0xbe)][_0x1f799b(0xd5)]=_0x1f799b(0x68),_0x497cbe[_0x1f799b(0xbe)][_0x1f799b(0xd3)]=_0x1f799b(0xfb),_0x49a5dd[_0x1f799b(0xb7)](_0x497cbe);const _0x57e893=document[_0x1f799b(0x107)](_0x1f799b(0xc2));_0x57e893['style'][_0x1f799b(0xd4)]='flex',_0x57e893[_0x1f799b(0xbe)][_0x1f799b(0xe4)]='center',_0x57e893[_0x1f799b(0xbe)]['marginBottom']='10px',_0x57e893[_0x1f799b(0xbe)][_0x1f799b(0xd5)]=_0x1f799b(0x9b),_0x57e893[_0x1f799b(0xbe)][_0x1f799b(0xd3)]='chocolate';const _0x50a759=document['createElement'](_0x1f799b(0xc9));_0x50a759[_0x1f799b(0x7e)]=_0x1f799b(0x106),_0x50a759['id']=_0x1f799b(0xf6),_0x50a759[_0x1f799b(0xb5)]=GM_getValue('fetchCode',![]),_0x50a759[_0x1f799b(0x86)]=()=>{const _0xb1e749=_0x1f799b;GM_setValue(_0xb1e749(0xf6),_0x50a759[_0xb1e749(0xb5)]);};const _0x2dabe9=document['createElement'](_0x1f799b(0x77));_0x2dabe9[_0x1f799b(0x89)]=_0x1f799b(0xf6),_0x2dabe9[_0x1f799b(0x82)]=_0x1f799b(0x69),_0x2dabe9[_0x1f799b(0xbe)][_0x1f799b(0xe8)]='5px',_0x2dabe9[_0x1f799b(0xbe)][_0x1f799b(0x7f)]='15px';const _0xd64774=document[_0x1f799b(0x107)](_0x1f799b(0xc2));_0xd64774['style'][_0x1f799b(0xd4)]=_0x1f799b(0x73),_0xd64774[_0x1f799b(0xbe)][_0x1f799b(0xe4)]=_0x1f799b(0xa3),_0xd64774[_0x1f799b(0xb7)](_0x50a759),_0xd64774[_0x1f799b(0xb7)](_0x2dabe9);const _0xe3700c=document['createElement'](_0x1f799b(0xc9));_0xe3700c[_0x1f799b(0x7e)]=_0x1f799b(0x106),_0xe3700c['id']='autoStart',_0xe3700c['checked']=GM_getValue(_0x1f799b(0x94),![]),_0xe3700c[_0x1f799b(0x86)]=()=>{const _0x39dfa7=_0x1f799b;GM_setValue(_0x39dfa7(0x94),_0xe3700c[_0x39dfa7(0xb5)]);};const _0x517871=document['createElement'](_0x1f799b(0x77));_0x517871[_0x1f799b(0x89)]=_0x1f799b(0x94),_0x517871[_0x1f799b(0x82)]=_0x1f799b(0xba),_0x517871[_0x1f799b(0xbe)]['marginLeft']=_0x1f799b(0x10c);const _0x430b70=document[_0x1f799b(0x107)]('div');_0x430b70[_0x1f799b(0xbe)]['display']=_0x1f799b(0x73),_0x430b70[_0x1f799b(0xbe)][_0x1f799b(0xe4)]=_0x1f799b(0xa3),_0x430b70[_0x1f799b(0xb7)](_0xe3700c),_0x430b70[_0x1f799b(0xb7)](_0x517871),_0x57e893[_0x1f799b(0xb7)](_0xd64774),_0x57e893[_0x1f799b(0xb7)](_0x430b70),_0x49a5dd['appendChild'](_0x57e893);const _0x533886=document[_0x1f799b(0x107)](_0x1f799b(0xc2));_0x533886[_0x1f799b(0xbe)][_0x1f799b(0xd4)]='flex',_0x533886[_0x1f799b(0xbe)][_0x1f799b(0xe9)]='space-between',_0x533886['style'][_0x1f799b(0xd5)]=_0x1f799b(0x9b);const _0x582de5=document[_0x1f799b(0x107)](_0x1f799b(0x96));_0x582de5[_0x1f799b(0x82)]=_0x1f799b(0xf8),_0x582de5[_0x1f799b(0xbe)][_0x1f799b(0x73)]='1',_0x582de5[_0x1f799b(0xbe)]['padding']=_0x1f799b(0x116),_0x582de5[_0x1f799b(0xbe)][_0x1f799b(0x74)]=_0x1f799b(0x113),_0x582de5[_0x1f799b(0xbe)]['color']='#fff',_0x582de5['style'][_0x1f799b(0xc7)]=_0x1f799b(0xd9),_0x582de5[_0x1f799b(0xbe)]['cursor']='pointer',_0x582de5['style'][_0x1f799b(0x7f)]=_0x1f799b(0x10c),_0x582de5[_0x1f799b(0xbe)][_0x1f799b(0x8e)]=_0x1f799b(0x10c),_0x582de5[_0x1f799b(0x92)]=async()=>{const _0x2f3d27=_0x1f799b;try{_0x582de5[_0x2f3d27(0xca)]=!![],_0x5cf72e['readOnly']=!![];const _0x51145e=_0x5cf72e[_0x2f3d27(0x115)]||_0x1af7db;_0x5cf72e[_0x2f3d27(0x115)]=_0x2f3d27(0x81);const _0x44a1cd=await _0x20c4d5(_0x51145e);if(_0x44a1cd){let _0x1e1b9b=0x46;const _0x1e33d5=setInterval(()=>{const _0x452422=_0x2f3d27;_0x5cf72e[_0x452422(0x115)]='Vui\x20lòng\x20chờ:\x20'+_0x1e1b9b+_0x452422(0x10d),_0x1e1b9b--,_0x1e1b9b<0x0&&(clearInterval(_0x1e33d5),_0x50a759[_0x452422(0xb5)]?(_0x5cf72e[_0x452422(0x115)]=_0x452422(0x100)+_0x44a1cd+_0x452422(0x84),_0x313435(_0x44a1cd)):_0x5cf72e[_0x452422(0x115)]=_0x452422(0x100)+_0x44a1cd,_0x582de5[_0x452422(0xca)]=![]);},0x3e8);}else _0x5cf72e[_0x2f3d27(0xff)]=![],console[_0x2f3d27(0x66)](_0x2f3d27(0x83)),_0x5cf72e[_0x2f3d27(0x115)]=_0x2f3d27(0x87);sessionStorage[_0x2f3d27(0xdf)](_0x2f3d27(0xdb)),localStorage[_0x2f3d27(0xdf)]('codexn');}catch(_0x189ccc){console['error'](_0x2f3d27(0xa8),_0x189ccc);}},_0x533886['appendChild'](_0x582de5);const _0x3f7ddd=document['createElement'](_0x1f799b(0x96));_0x3f7ddd['textContent']=_0x1f799b(0x11f),_0x3f7ddd[_0x1f799b(0xbe)][_0x1f799b(0x73)]='1',_0x3f7ddd['style']['padding']=_0x1f799b(0x116),_0x3f7ddd[_0x1f799b(0xbe)]['backgroundColor']='#F44336',_0x3f7ddd[_0x1f799b(0xbe)]['color']=_0x1f799b(0x97),_0x3f7ddd['style']['border']=_0x1f799b(0xd9),_0x3f7ddd[_0x1f799b(0xbe)][_0x1f799b(0x80)]='pointer',_0x3f7ddd[_0x1f799b(0xbe)][_0x1f799b(0x8e)]=_0x1f799b(0x10c),_0x3f7ddd['onclick']=async()=>{const _0x18e697=_0x1f799b;_0x5cf72e[_0x18e697(0xff)]=!![],_0x5cf72e[_0x18e697(0x115)]=_0x18e697(0x7d),_0x6749c7();},_0x533886['appendChild'](_0x3f7ddd),_0x49a5dd[_0x1f799b(0xb7)](_0x533886),document[_0x1f799b(0xd2)][_0x1f799b(0xb7)](_0x49a5dd),_0xe3700c[_0x1f799b(0xb5)]&&_0x582de5[_0x1f799b(0xa1)]();}window['onload']=()=>{const _0x15e79c=_0x59c7b8;_0x2873d5()[_0x15e79c(0xa0)](_0x170fc3=>{_0x3d4ed8(_0x170fc3);})[_0x15e79c(0xf0)](_0x3c8c1d=>{const _0x2eea36=_0x15e79c;console[_0x2eea36(0x66)]('Lỗi\x20khi\x20nhận\x20diện\x20URL:',_0x3c8c1d),_0x3d4ed8(_0x2eea36(0x11e));});};}()));
+(function() {
+    'use strict';
+
+    const GET_VUATRAFFIC_URL = "https://traffic-user.net/GET_VUATRAFFIC.php";
+    const GET_MA_URL = "https://traffic-user.net/GET_MA.php";
+    const GOOGLE_URL = "https://www.google.com/";
+    const OCR_URL = "https://api.ocr.space/parse/imageurl?apikey=K81664733488957&isOverlayRequired=true&OCREngine=2";
+
+    function doiNhiemvu() {
+        console.log("Đang đổi nhiệm vụ...");
+        const btnBaoloi = document.querySelector('#btn-baoloi');
+        if (!btnBaoloi) return;
+        btnBaoloi.click();
+        setTimeout(() => {
+            const reasonLink = document.querySelector('#lydo_doima > center > a:nth-child(2)');
+            if (reasonLink) reasonLink.click();
+
+            setTimeout(() => {
+                const radioInput = document.querySelector('#lydo_doima > label:nth-child(8) > input[type=radio]');
+                if (radioInput) radioInput.click();
+
+                setTimeout(() => {
+                    const confirmLink = document.querySelector('#dongy_doima > a');
+                    if (confirmLink) confirmLink.click();
+                }, 500);
+            }, 500);
+        }, 500);
+    }
+
+    function recognizeTrafficURL() {
+        return new Promise((resolve, reject) => {
+            const trafficName = document.querySelector('p#TK1').textContent.trim().toLowerCase();
+            const imageElement = document.querySelector('img#halt_nv') || document.querySelector('img#hinh_nv');
+            const imageUrl = imageElement ? imageElement.src : null;
+            if (imageUrl.includes('placehold.co')) {
+                setTimeout(() => {
+                    recognizeTrafficURL().then(resolve).catch(reject);
+                }, 100);
+                return;
+            }
+            const fetchUrl = `${OCR_URL}&url=${imageUrl}`;
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", fetchUrl, true);
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    const response = JSON.parse(xhr.responseText);
+                    const parsedResult = response.ParsedResults[0];
+                    const result = parsedResult.TextOverlay.Lines
+                        .filter(line => line.LineText.match(/\b[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+\b/) &&
+                            line.Words &&
+                            line.Words.some(word => word.Top < 170))
+                        .map(line => line.LineText);
+                    let taskURL = '';
+                    if (trafficName === '188bet') {
+                        taskURL = `https://165.22.63.250/`;  // https://88bet${result}/
+                    } else if (trafficName === 'w88') {
+                        taskURL = `https://188.166.185.213/`;
+                    } else if (trafficName === 'bk8') {
+                        taskURL = `https://bk8${result}/`;
+                    } else if (trafficName === 'fb88') {
+                        taskURL = `https://fb88${result}/`;
+                    } else if (trafficName === 'm88') {
+                        taskURL = `https://bet88${result}/`;
+                    } else if (trafficName === 'vn88') {
+                        taskURL = `https://vn88${result}/`;
+                    } else if (trafficName === 'v9bet') {
+                        taskURL = `https://v9bet${result}/`;
+                    } else {
+                        taskURL = `Chưa nhận diện được URL!`;
+                    }
+                    resolve(taskURL);
+                } else {
+                    reject('Lỗi khi tải dữ liệu: ' + xhr.status);
+                }
+            };
+            xhr.send();
+        });
+    }
+
+    function generateTimestampData(taskURL) {
+        const timestamp = Date.now();
+        return `${timestamp},${GOOGLE_URL},${taskURL},IOS900,hidden,null`;
+    };
+
+    function fetchCodexn(ymnclk) {
+        return new Promise((resolve, reject) => {
+            const timestampData = generateTimestampData();
+            const xhr = new XMLHttpRequest();
+            const fetchUrl = `${GET_VUATRAFFIC_URL}?data=${timestampData}&clk=${ymnclk}`;
+            xhr.open("POST", fetchUrl, true);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    const htmlString = xhr.responseText;
+                    const codexn = htmlString.match(/localStorage\.codexn\s*=\s*'([^']+)'/)?.[1];
+                    if (codexn) {
+                        localStorage.codexn = codexn;
+                        resolve(codexn);
+                    } else {
+                        console.error("Không thể lấy mã codexn");
+                        reject("Lỗi! Đổi nhiệm vụ khác và thử lại");
+                    }
+                } else {
+                    reject(`Lỗi: ${xhr.status}`);
+                }
+            };
+            xhr.onerror = () => reject("Lỗi mạng hoặc yêu cầu không thành công");
+            xhr.send();
+        });
+    }
+
+    function fetchCode(codexn, url, loai_traffic, ymnclk) {
+        return new Promise((resolve, reject) => {
+            const fetchUrl = `${GET_MA_URL}?codexn=${codexn}&url=${url}&loai_traffic=${loai_traffic}&clk=${ymnclk}`;
+            const xhr = new XMLHttpRequest();
+            xhr.open("POST", fetchUrl, true);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    const htmlString = xhr.responseText;
+                    const ymnclk = htmlString.match(/sessionStorage\.setItem\("ymnclk", (\d+)\)/)?.[1];
+                    if (ymnclk) {
+                        sessionStorage.setItem("ymnclk", ymnclk);
+                        resolve(ymnclk);
+                    } else {
+                        const doc = new DOMParser().parseFromString(htmlString, 'text/html');
+                        const spanElement = doc.querySelector('span#layma_me_vuatraffic');
+                        if (spanElement) resolve(spanElement.textContent.trim());
+                        else reject("URL Lỗi! Vui lòng kiểm tra lại.");
+                    }
+                } else {
+                    reject(`Lỗi: ${xhr.status}`);
+                }
+            };
+            xhr.onerror = () => reject("Lỗi mạng hoặc yêu cầu không thành công");
+            xhr.send();
+        });
+    }
+
+    function fetchResult(code) {
+        const actionValue = document.querySelector('#gt-form')?.getAttribute('action') || '';
+        const url = `https://yeumoney.com${actionValue}`;
+        const formData = new FormData();
+        formData.append('code', code);
+        formData.append('keyword', '');
+        formData.append('dieuhanh', document.querySelector('input[name="dieuhanh"]')?.value || '');
+        formData.append('pix', document.querySelector('input[name="pix"]')?.value || '');
+        formData.append('lvp', document.querySelector('input[name="lvp"]')?.value || '');
+        formData.append('ref', '$ref');
+        formData.append('trinhduyet', document.getElementById('trinhduyet')?.value || '');
+        formData.append('id_traffic', document.getElementById('id_donhang')?.value || '');
+        formData.append('check_index', '1');
+
+        const urlEncodedData = new URLSearchParams(formData).toString();
+
+        GM_xmlhttpRequest({
+            method: 'POST',
+            url: url,
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'User-Agent': navigator.userAgent,
+                'Referer': 'https://yeumoney.com/',
+                'Cookie': document.cookie
+            },
+            data: urlEncodedData,
+            onload: function(response) {
+                window.location.href = response.finalUrl;
+            },
+            onerror: function(error) {
+                const errorFetch = error.error;
+                const url = errorFetch.match(/https?:\/\/[^\s"]+/);
+                window.location.href = url;
+            }
+        });
+    }
+
+    async function startBypass(url) {
+        try {
+            const codexn1 = await fetchCodexn(null);
+            const url1 = url.replace(/\/$/, "");
+            const ymnclk = await fetchCode(codexn1, url1, GOOGLE_URL, null);
+            const codexn2 = await fetchCodexn(ymnclk);
+            const url2 = url + "admin";
+            const result = await fetchCode(codexn2, url2, url, ymnclk);
+            return result;
+        } catch (error) {
+            console.error("Lỗi trong startBypass:", error);
+            return null;
+        }
+    }
+
+    async function fetchGoogleSheetHyperlinks() {
+        try {
+            const today = new Date();
+            const day = today.getDate().toString();
+            const spanElement =
+                document.getElementById('docs-title-input-label-inner') ||
+                document.querySelector('.docs-ml-header-document-title-text');
+
+            const spanText = spanElement.textContent || spanElement.innerText;
+            if (!spanText.includes("TÌM MÃ BƯỚC 2")) {
+                const storedDate = localStorage.getItem("dayBypassed");
+                if (storedDate === day) {
+                    console.log("Đã bypass hôm nay.");
+                    return null;
+                }
+
+                if (spanText.includes("BACKUP KHÓA HỌC 2K7 FREE")) {
+                    const userConfirmed = confirm("Bạn có muốn Bypass không?!");
+                    if (!userConfirmed) {
+                        localStorage.setItem("dayBypassed", day);
+                        return null;
+                    }
+                } else {
+                    return null;
+                }
+            }
+
+            localStorage.setItem("dayBypassed", day);
+
+            const sheetUrl = window.location.href;
+            const apiKey = "AIzaSyDTEFhPROUdMvEg7pTPF13rTRCfgXbJLJo";
+            const sheetId = sheetUrl.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1];
+
+            if (!sheetId) {
+                console.error("Không tìm thấy Sheet ID.");
+                return null;
+            }
+
+            const apiUrl = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}?fields=sheets(data(rowData(values(userEnteredValue,hyperlink))))&key=${apiKey}`;
+            const response = await fetch(apiUrl);
+
+            if (!response.ok) {
+                console.error("Lỗi khi gọi API:", response.statusText);
+                return null;
+            }
+
+            const data = await response.json();
+            const sheetData = data.sheets?.[0]?.data?.[0]?.rowData || [];
+
+            for (let row of sheetData) {
+                for (let cell of row.values || []) {
+                    const hyperlink = cell.hyperlink;
+                    if (hyperlink && hyperlink.includes('https://yeumoney.com/')) {
+                        return hyperlink;
+                    }
+                }
+            }
+
+            console.warn("Không tìm thấy hyperlink hợp lệ.");
+            return null;
+        } catch (error) {
+            console.error("Lỗi:", error.message);
+            return null;
+        }
+    }
+
+    async function completeGoogleForms() {
+        if (!document.title.includes("Điểm danh ngày")) {
+            return null;
+        }
+        window.onbeforeunload = null;
+        function clickCheckbox(checkbox, delay) {
+            setTimeout(() => {
+                if (!checkbox.classList.contains('checked')) {
+                    checkbox.click();
+                }
+            }, delay);
+        }
+
+        function clickRadio(radio, delay) {
+            setTimeout(() => {
+                if (!radio.classList.contains('checked')) {
+                    radio.click();
+                }
+            }, delay);
+        }
+
+        var checkboxes = document.querySelectorAll('div[role="checkbox"]');
+        checkboxes.forEach((checkbox, index) => {
+            clickCheckbox(checkbox, index * 300);
+        });
+
+        var radioGroups = document.querySelectorAll('div[role="radiogroup"]');
+        radioGroups.forEach(group => {
+            var radioButtons = group.querySelectorAll('div[role="radio"]');
+            radioButtons.forEach((radio, index) => {
+                clickRadio(radio, index * 300);
+            });
+        });
+
+        setTimeout(() => {
+            var form = document.querySelector('form');
+            if (form) {
+                form.submit();
+            }
+        }, (checkboxes.length + radioGroups.length) * 300 + 200);
+    }
+
+    function createUI(taskURL) {
+        const container = document.createElement('div');
+        container.style.position = 'fixed';
+        container.style.top = '10px';
+        container.style.right = '10px';
+        container.style.backgroundColor = '#f9f9f9';
+        container.style.border = '1px solid #ccc';
+        container.style.padding = '10px';
+        container.style.zIndex = '9999';
+        container.style.width = '350px';
+        container.style.boxShadow = '0px 4px 6px rgba(0, 0, 0, 0.1)';
+        container.style.borderRadius = '10px';
+
+        const des = document.createElement('h4');
+        des.textContent = 'Script By phantatdung';
+        des.style.margin = '0';
+        des.style.marginBottom = '10px';
+        des.style.fontSize = '10px';
+        des.style.fontStyle = 'italic';
+        des.style.textAlign = 'center';
+        des.style.backgroundImage = 'linear-gradient(90deg, red, orange, brown, green, blue, indigo, violet, indigo, blue, green, brown, orange, red)';
+        des.style.backgroundSize = '200% auto';
+        des.style.color = 'transparent';
+        des.style.backgroundClip = 'text';
+        des.style.webkitBackgroundClip = 'text';
+        des.style.animation = 'rainbowMove 5s linear infinite';
+
+        const style = document.createElement('style');
+        style.textContent = `
+    @keyframes rainbowMove {
+        0% {
+            background-position: 0% 50%;
+        }
+        100% {
+            background-position: 100% 50%;
+        }
+    }
+`;
+        document.head.appendChild(style);
+
+        container.appendChild(des);
+
+
+        const title = document.createElement('h3');
+        title.textContent = 'Nhập URL nhiệm vụ:';
+        title.style.margin = '0';
+        title.style.fontWeight = 'bold';
+        title.style.marginBottom = '10px';
+        title.style.fontSize = '16px';
+        title.style.color = 'darkred';
+        container.appendChild(title);
+
+        const input = document.createElement('input');
+        input.readOnly = false;
+        input.placeholder = 'Nếu để trống sẽ sử dụng URL nhận diện!';
+        input.style.width = '100%';
+        input.style.marginBottom = '10px';
+        input.style.padding = '8px';
+        input.style.fontSize = '14px';
+        container.appendChild(input);
+
+        const url = document.createElement('h4');
+        url.textContent = 'URL nhận diện (OCR): ' + taskURL;
+        url.style.margin = '0';
+        url.style.marginBottom = '10px';
+        url.style.fontSize = '13px';
+        url.style.color = 'brown';
+
+        container.appendChild(url);
+
+        const checkboxRow = document.createElement('div');
+        checkboxRow.style.display = 'flex';
+        checkboxRow.style.alignItems = 'center';
+        checkboxRow.style.marginBottom = '10px';
+        checkboxRow.style.fontSize = '14px';
+        checkboxRow.style.color = 'chocolate';
+
+        const fetchCheckbox = document.createElement('input');
+        fetchCheckbox.type = 'checkbox';
+        fetchCheckbox.id = 'fetchCode';
+        fetchCheckbox.checked = GM_getValue('fetchCode', false);
+        fetchCheckbox.onchange = () => {
+            GM_setValue('fetchCode', fetchCheckbox.checked);
+        };
+
+        const fetchLabel = document.createElement('label');
+        fetchLabel.htmlFor = 'fetchCode';
+        fetchLabel.textContent = 'Auto chuyển trang';
+        fetchLabel.style.marginLeft = '5px';
+        fetchLabel.style.marginRight = '15px';
+
+        const fetchContainer = document.createElement('div');
+        fetchContainer.style.display = 'flex';
+        fetchContainer.style.alignItems = 'center';
+        fetchContainer.appendChild(fetchCheckbox);
+        fetchContainer.appendChild(fetchLabel);
+
+        const autoStartCheckbox = document.createElement('input');
+        autoStartCheckbox.type = 'checkbox';
+        autoStartCheckbox.id = 'autoStart';
+        autoStartCheckbox.checked = GM_getValue('autoStart', false);
+        autoStartCheckbox.onchange = () => {
+            GM_setValue('autoStart', autoStartCheckbox.checked);
+        };
+
+        const autoStartLabel = document.createElement('label');
+        autoStartLabel.htmlFor = 'autoStart';
+        autoStartLabel.textContent = 'Auto Bypass (90%)';
+        autoStartLabel.style.marginLeft = '5px';
+
+        const autoStartContainer = document.createElement('div');
+        autoStartContainer.style.display = 'flex';
+        autoStartContainer.style.alignItems = 'center';
+        autoStartContainer.appendChild(autoStartCheckbox);
+        autoStartContainer.appendChild(autoStartLabel);
+
+        checkboxRow.appendChild(fetchContainer);
+        checkboxRow.appendChild(autoStartContainer);
+
+        container.appendChild(checkboxRow);
+
+        const buttonRow = document.createElement('div');
+        buttonRow.style.display = 'flex';
+        buttonRow.style.justifyContent = 'space-between';
+        buttonRow.style.fontSize = '14px';
+
+        const startBtn = document.createElement('button');
+        startBtn.textContent = 'Bắt đầu Bypass';
+        startBtn.style.flex = '1';
+        startBtn.style.padding = '7px';
+        startBtn.style.backgroundColor = '#4CAF50';
+        startBtn.style.color = '#fff';
+        startBtn.style.border = 'none';
+        startBtn.style.cursor = 'pointer';
+        startBtn.style.marginRight = '5px';
+        startBtn.style.borderRadius = '5px';
+
+        startBtn.onclick = async () => {
+            try {
+                startBtn.disabled = true;
+                input.readOnly = true;
+                const check = input.value || taskURL;
+                input.value = 'Đang xử lý...';
+                const code = await startBypass(check);
+
+                if (code) {
+                    let countdown = 62;
+                    const countdownInterval = setInterval(() => {
+                        input.value = `Vui lòng chờ: ${countdown} giây`;
+                        countdown--;
+                        if (countdown < 0) {
+                            clearInterval(countdownInterval);
+                            if (fetchCheckbox.checked) {
+                                input.value = "Code: " + code + " - Đang chuyển trang...";
+                                fetchResult(code);
+                            } else {
+                                input.value = "Code: " + code;
+                            }
+                            startBtn.disabled = false;
+                        }
+                    }, 1000);
+                } else {
+                    input.readOnly = false;
+                    console.error("Không có mã trả về từ startBypass");
+                    input.value = "Lỗi! Vui lòng xem lại URL.";
+                }
+
+                sessionStorage.removeItem("ymnclk");
+                localStorage.removeItem("codexn");
+            } catch (error) {
+                console.error("Lỗi khi gọi startBypass:", error);
+            }
+        };
+
+        buttonRow.appendChild(startBtn);
+
+        const reloadBtn = document.createElement('button');
+        reloadBtn.textContent = 'Đổi Nhiệm Vụ';
+        reloadBtn.style.flex = '1';
+        reloadBtn.style.padding = '7px';
+        reloadBtn.style.backgroundColor = '#F44336';
+        reloadBtn.style.color = '#fff';
+        reloadBtn.style.border = 'none';
+        reloadBtn.style.cursor = 'pointer';
+        reloadBtn.style.borderRadius = '5px';
+
+        reloadBtn.onclick = async () => {
+            input.readOnly = true;
+            input.value = 'Đang Đổi Nhiệm Vụ...';
+            doiNhiemvu();
+        };
+
+        buttonRow.appendChild(reloadBtn);
+        container.appendChild(buttonRow);
+
+        document.body.appendChild(container);
+
+        if (autoStartCheckbox.checked) {
+            startBtn.click();
+        }
+    }
+        const url = window.location.href;
+        window.onload = () => {
+            if (url.includes('https://yeumoney.com/')) {
+                recognizeTrafficURL().then(taskURL => {
+                    createUI(taskURL);
+                }).catch(error => {
+                    console.error("Lỗi khi nhận diện URL:", error);
+                    createUI("Lỗi! Tự nhập URL hoặc Reload");
+                });
+            } else if (url.includes('https://docs.google.com/spreadsheets/')) {
+                fetchGoogleSheetHyperlinks()
+                    .then(data => {
+                        if (data) {
+                            window.location.href = data;
+                        }
+                })
+                    .catch(error => console.error("Lỗi khi gọi hàm:", error));
+            } else if (url.includes('https://docs.google.com/forms/')) {
+                completeGoogleForms();
+            }
+        };
+    }
+)();
