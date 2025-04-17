@@ -5,8 +5,6 @@
 // @description  Bypass Yeumoney
 // @author       xGreen
 // @match        https://yeumoney.com/*
-// @match        https://docs.google.com/spreadsheets/*
-// @match        https://docs.google.com/forms/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -202,114 +200,6 @@
             console.error("Lỗi trong startBypass:", error);
             return null;
         }
-    }
-
-    async function fetchGoogleSheetHyperlinks() {
-        try {
-            const today = new Date();
-            const day = today.getDate().toString();
-            const spanElement =
-                document.getElementById('docs-title-input-label-inner') ||
-                document.querySelector('.docs-ml-header-document-title-text');
-
-            const spanText = spanElement.textContent || spanElement.innerText;
-            if (!spanText.includes("TÌM MÃ BƯỚC 2")) {
-                const storedDate = localStorage.getItem("dayBypassed");
-                if (storedDate === day) {
-                    console.log("Đã bypass hôm nay.");
-                    return null;
-                }
-
-                if (spanText.includes("BACKUP KHÓA HỌC 2K7 FREE")) {
-                    const userConfirmed = confirm("Bạn có muốn Bypass không?!");
-                    if (!userConfirmed) {
-                        localStorage.setItem("dayBypassed", day);
-                        return null;
-                    }
-                } else {
-                    return null;
-                }
-            }
-
-            localStorage.setItem("dayBypassed", day);
-
-            const sheetUrl = window.location.href;
-            const apiKey = "AIzaSyDTEFhPROUdMvEg7pTPF13rTRCfgXbJLJo";
-            const sheetId = sheetUrl.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1];
-
-            if (!sheetId) {
-                console.error("Không tìm thấy Sheet ID.");
-                return null;
-            }
-
-            const apiUrl = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}?fields=sheets(data(rowData(values(userEnteredValue,hyperlink))))&key=${apiKey}`;
-            const response = await fetch(apiUrl);
-
-            if (!response.ok) {
-                console.error("Lỗi khi gọi API:", response.statusText);
-                return null;
-            }
-
-            const data = await response.json();
-            const sheetData = data.sheets?.[0]?.data?.[0]?.rowData || [];
-
-            for (let row of sheetData) {
-                for (let cell of row.values || []) {
-                    const hyperlink = cell.hyperlink;
-                    if (hyperlink && hyperlink.includes('https://yeumoney.com/')) {
-                        return hyperlink;
-                    }
-                }
-            }
-
-            console.warn("Không tìm thấy hyperlink hợp lệ.");
-            return null;
-        } catch (error) {
-            console.error("Lỗi:", error.message);
-            return null;
-        }
-    }
-
-    async function completeGoogleForms() {
-        if (!document.title.includes("Điểm danh ngày")) {
-            return null;
-        }
-        window.onbeforeunload = null;
-        function clickCheckbox(checkbox, delay) {
-            setTimeout(() => {
-                if (!checkbox.classList.contains('checked')) {
-                    checkbox.click();
-                }
-            }, delay);
-        }
-
-        function clickRadio(radio, delay) {
-            setTimeout(() => {
-                if (!radio.classList.contains('checked')) {
-                    radio.click();
-                }
-            }, delay);
-        }
-
-        var checkboxes = document.querySelectorAll('div[role="checkbox"]');
-        checkboxes.forEach((checkbox, index) => {
-            clickCheckbox(checkbox, index * 300);
-        });
-
-        var radioGroups = document.querySelectorAll('div[role="radiogroup"]');
-        radioGroups.forEach(group => {
-            var radioButtons = group.querySelectorAll('div[role="radio"]');
-            radioButtons.forEach((radio, index) => {
-                clickRadio(radio, index * 300);
-            });
-        });
-
-        setTimeout(() => {
-            var form = document.querySelector('form');
-            if (form) {
-                form.submit();
-            }
-        }, (checkboxes.length + radioGroups.length) * 300 + 200);
     }
 
     function createUI(taskURL) {
