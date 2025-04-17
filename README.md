@@ -9,7 +9,7 @@ Bypass Yeumoney - Công cụ tuyệt vời cho người khuyết tật!
 [Download Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
 Bấm vào link này để tự động cài đặt (Auto Update):
-[https://github.com/phantatdung233/bypass-yeumoney/raw/main/bypass-yeumoney-V3.js](https://github.com/phantatdung233/bypass-yeumoney/raw/main/bypass-yeumoney-V3.js)
+[https://github.com/phantatdung233/bypass-yeumoney/raw/main/tampermonkey.user.js](https://github.com/phantatdung233/bypass-yeumoney/raw/main/tampermonkey.user.js)
 
 > [!NOTE]
 > Cài JS vào Tampermonkey và bật lên. Tick full chức năng, mỗi lần vào page Yeumoney nó sẽ tự Bypass.
