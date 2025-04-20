@@ -15,7 +15,7 @@ Bấm vào đây sau khi tải Tampermonkey để tự động cài đặt Bypas
 > [!NOTE]
 > Tải tampermonkey -> Bấm vào link cài đặt -> Vào link cần vượt -> Tick full chức năng -> Các lần sau đó khi vào link sẽ tự bypass
 
-![Tutorial](https://img.upanh.tv/2025/04/20/Screenshot-2025-04-20-062123.png)
+![Tutorial](https://img.upanh.tv/2025/03/10/Screenshot-2025-03-10-195639.png)
 
 
 > [!WARNING]
